@@ -1,0 +1,13 @@
+[Unit]
+Description=xPL-hub daemon
+After=mosquitto.service
+After=ntpd.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/xPL_Hub -interface eth0 -nodaemon
+Restart=always
+#StandardOutput=null
+
+[Install]
+WantedBy=multi-user.target

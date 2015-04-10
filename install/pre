@@ -1,0 +1,7 @@
+   cd /tmp
+   git clone https://github.com/Tieske/xPL4Linux.git
+   cd xPL4Linux
+   make && make install
+   cd examples
+   make
+   cp xPL_Clock xPL_Hub xPL_Logger xPLSend /usr/local/bin
