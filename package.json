@@ -1,0 +1,13 @@
+{
+  "name": "xpl-hub",
+  "version": "0.1.0",
+  "description": "xPL_Hub",
+  "keywords": [
+    "XPL"
+  ],
+  "repository": { "type": "git", "url": "https://github.com/wiseflat/xpl-hub.git" },
+  "author": "Mathieu Garcia",
+  "license": "GPL",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/wiseflat/xpl-hub"
+}
