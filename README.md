@@ -1,2 +1,3 @@
 # xpl-hub
-xPL Hub
+
+Simple systemd service to start the xPL Hub
